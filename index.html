@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make a sketch!</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stalemate&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1 class="stalemate-regular ">Make a sketch!</h1>
+    </header>
+
+    <div id="main">
+        <img id="img1" class="hover-scale" src=".vscode/rene1.jpg"/>
+
+        <main>
+            <div id="sketch" class="hover-scale">
+            
+                <div id="container" >       
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            
+            </div>
+
+            <div id="buttons">
+                <div>
+                    
+                    <button class="cedarville-cursive-regular hover-scale" id="button1"  onclick="changeDimension(4)">2 x 2</button>
+                    <button class="cedarville-cursive-regular hover-scale" id="button2" onclick="changeDimension(25)">5 x 5</button>
+                    <button class="cedarville-cursive-regular hover-scale" id="button3"  onclick="changeDimension(625)">25 x 25</button>
+                </div>
+                <div id="part2">
+                    <button class="cedarville-cursive-regular hover-scale" id="button4"  onclick="newPage()">New Page</button>
+                    <button class="cedarville-cursive-regular hover-scale" id="button5"  onclick="eraser()">Eraser</button>
+                    <div id="col" class="cedarville-cursive-regular hover-scale"> Pick a color
+                        <input type="color" id="color" name="Pick a color" value="#f6b73c" onclick="coloring()"/>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <img class="hover-scale" id="img2" src=".vscode/rene4.png"/>
+
+    </div>
+
+    <footer>
+        <div> 	&copy;    2024  stefannovkovski <i class="fa fa-github"></i></div>
+
+    </footer>
+    
+
+</body>
+</html>
