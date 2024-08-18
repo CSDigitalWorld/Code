@@ -1,0 +1,1 @@
+Vo ovoj repozitorium se naogjaat site kodovi od knigata "Разбирањe на Дигиталниот Свет - Вовед во Компјутерски Науки и Развој", kodovite moze da se najdat niz celata kniga so isklucok na nekoi koi se nameneti da bidat dostapni samo vo ovoj repozitorium.
